@@ -76,6 +76,7 @@ void Airline::initializtion()
 ////////////////////////// Admin /////////////////////////
 void Airline::admin()
 {
+     
     cout << "Admin" << endl;
     cout << "Enter total flights of UK" << endl;
     cin >> totalUKFlights;
@@ -95,6 +96,7 @@ void Airline::admin()
 ////////////////////////// Costumer /////////////////////////
 void Airline::costumer()
 {
+     
     int country;
     while (true)
     {
@@ -132,6 +134,7 @@ void Airline::costumer()
 ////////////////////////// China /////////////////////////
 void Airline::China()
 {
+     
     int choice, price = 345;
     cout << "China" << endl;
     --totalChinaFlights;
@@ -156,6 +159,7 @@ void Airline::China()
 ////////////////////////// UK /////////////////////////
 void Airline::UK()
 {
+     
     int choice, price = 555;
     cout << "UK" << endl;
     --totalUKFlights;
@@ -180,6 +184,7 @@ void Airline::UK()
 ////////////////////////// JPn /////////////////////////
 void Airline::JPN()
 {
+     
     int choice, price = 745;
     cout << "JPN" << endl;
     --totalJPNFlights;
@@ -204,6 +209,7 @@ void Airline::JPN()
 ////////////////////////// Dubai /////////////////////////
 void Airline::Dubai()
 {
+     
     int choice, price = 745;
     cout << "Dubai" << endl;
     --totalDubaiFlights;
